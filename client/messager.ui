@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Messager</class>
+ <widget class="QWidget" name="Messager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>639</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: black;</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>291</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ color: white;
+ background-color: rgba(52,52,52,255);
+ border-style: solid;
+ border-width:1px;
+ border-radius:1px;
+ border-color: rgba(52,52,52,255);
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>440</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Iosevka NF Heavy</family>
+     <pointsize>38</pointsize>
+     <italic>true</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: rgba(255,158,9,255);
+ border-style: solid;
+padding-right: 5px;
+ border-width:1px;
+ border-radius:20px;
+ border-color: rgba(255,158,9,255);
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string>󰒊</string>
+   </property>
+  </widget>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>421</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+ color: white;
+ background-color: rgba(52,52,52,255);
+ border-style: solid;
+ border-width:1px;
+ border-radius:1px;
+ border-color: rgba(52,52,52,255);
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>520</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Iosevka NF Light</family>
+     <pointsize>30</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"> background-color: rgba(32,174,50,255);
+ border-style: solid;
+padding-right: 20px;
+ border-width:1px;
+ border-radius:20px;
+ border-color: rgba(255,158,9,255);
+color: white;
+</string>
+   </property>
+   <property name="text">
+    <string></string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
